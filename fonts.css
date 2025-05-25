@@ -1,0 +1,16 @@
+@font-face {
+  font-family: 'Sylabitsa Serif';
+  src: url('./assets/fonts/SylabitsaSerif.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Sylabitsa Serif Light';
+  src: url('./assets/fonts/SylabitsaSerif-Light.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Sylabitsa Sans';
+  src: url('./assets/fonts/SylabitsaSans.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Sylabitsa Sans Mono';
+  src: url('./assets/fonts/SylabitsaSansMono.ttf') format('truetype');
+}

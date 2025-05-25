@@ -1,0 +1,242 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  padding-top: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #a0a0a0;
+}
+
+.syl {
+  font-family: 'Sylabitsa Serif';
+  margin: 0px;
+}
+.sylLi {
+  font-family: 'Sylabitsa Serif Light';
+  margin: 0px;
+}
+.sylSa {
+  font-family: 'Sylabitsa Sans';
+  margin: 0px;
+}
+.sylMo {
+  font-family: 'Sylabitsa Sans Mono';
+  margin: 0px;
+}
+
+.lit {
+    color: gray;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 1em;
+}
+
+main {
+  width: 60%;
+  background-color: white;
+  border: solid black 2px;
+  border-radius: 25px;
+  padding: 1%;
+  display: flex;
+  flex-flow: column;
+}
+
+img {
+  width: 60%;
+  align-self: center;
+}
+h1 {
+  font-size: 3em
+}
+h3 {
+  font-size: 1.75em;
+  margin-bottom: 0px;
+}
+h4 {
+  font-size: 1.5em;
+  margin-top: 1%;
+  margin-bottom: 0px;
+}
+p, li {
+  font-size: 1.25em;
+}
+li {
+  margin-bottom: 1%;
+}
+p.syl, p.sylLi, p.sylSa, p.sylMo {
+  font-size: 1.5em;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+textarea {
+  font-size: 1.2em;
+  padding: 2%;
+  width: 90%;
+  height: 100px;
+}
+
+button {
+  font-size: 1.1em;
+  cursor: pointer;
+}
+
+div {
+  margin-top: 2%;
+  display: flex;
+  gap: 5%;
+  justify-content: center;
+}
+div section {
+  width: 35%;
+}
+div section p {
+  margin-top: 0px;
+}
+
+footer {
+  text-align: center;
+}
+footer a {
+  text-decoration: underline;
+}
+
+@media (min-width: 0px) and (max-width: 425px){
+  .lit {
+      color: gray;
+      text-decoration: none;
+      font-weight: normal;
+      font-size: 0.8em;
+  }
+
+  main {
+    width: 80%;
+    padding: 5%;
+  }
+
+  img {
+    width: 100%;
+    align-self: center;
+  }
+  h1 {
+    font-size: 1.8em;
+  }
+  h3 {
+    font-size: 1.5em;
+  }
+  h4 {
+    font-size: 1.2em;
+  }
+  P {
+    font-size: 1em;
+  }
+  div {
+    gap: 15%;
+  }
+  textarea {
+    width: 100%;
+    height: 150px;
+    font-size: 1em;
+  }
+
+  button {
+    font-size: 1em;
+    cursor: pointer;
+  }
+
+  footer {
+    font-size: 0.8em;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 768px){
+  .lit {
+      color: gray;
+      text-decoration: none;
+      font-weight: normal;
+      font-size: 0.8em;
+  }
+
+  main {
+    width: 70%;
+    padding: 2.5%;
+  }
+
+  img {
+    width: 80%;
+    align-self: center;
+  }
+  h1 {
+    font-size: 2em;
+  }
+  h3 {
+    font-size: 1.6em;
+  }
+  h4 {
+    font-size: 1.3em;
+  }
+  P {
+    font-size: 1.1em;
+  }
+  div {
+    gap: 15%;
+  }
+  textarea {
+    width: 100%;
+    height: 120px;
+    font-size: 0.9em;
+  }
+
+  button {
+    font-size: 1em;
+    cursor: pointer;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px){
+  .lit {
+      color: gray;
+      text-decoration: none;
+      font-weight: normal;
+      font-size: 0.8em;
+  }
+
+  main {
+    width: 60%;
+    padding: 1.75%;
+  }
+
+  img {
+    width: 80%;
+    align-self: center;
+  }
+  h1 {
+    font-size: 2em;
+  }
+  h3 {
+    font-size: 1.625em;
+  }
+  h4 {
+    font-size: 1.35em;
+  }
+  P {
+    font-size: 1.1em;
+  }
+  div {
+    gap: 15%;
+  }
+  textarea {
+    width: 100%;
+    height: 120px;
+    font-size: 0.9em;
+  }
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="HazMatt">
+    <title>Sylabica</title>
+
+    <!-- CSS3 -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fonts.css">
+
+    <!-- JavaScript -->
+    <script src="mainScript.js"></script>
+    <script src="letAndSyl.js"></script>
+</head>
+<body>
+    <main>
+        <h1 class="sylLi">Wjitam na stronje dokumentującą Sylabjice!</h1>
+        <p class="lit">Witam na stronie dokumentującą Sylabicę!</p>
+    
+        <h3>Co to Sylabica?</h3>
+        <p>
+            <b>Sylabica</b> to skrypt stworzony przez <i>Marcina <q>Qrczak</q> Kowalczyka</i> w 1990 roku, lecz od tamtego momentu przeszła wiele rewizji. Skrypt został inspirowany przez Japońskie skrypty <i>"Hiragana"</i> i <i>"Katakana"</i>, lecz wygląda bardziej podobnie do Koreańskiego alfabetu <i>"Hangul"</i>.
+            <br><br>
+            Podobnie jak w standardowej polskiej ortografii, pisownia Sylabicy nie jest ściśle fonetyczna, ale zachowuje pewną podstawową strukturę, która została zaciemniona przez późniejsze zmiany fonetyczne języka. Ta zasada idzie czasami dalej niż w standardowej ortografii.
+            <br><br>
+            Etymologiczna pisownia języka polskiego (ortografia etymologiczna) to schemat transliteracji Sylabicy, który wykorzystuje <i>zmodyfikowany alfabet łaciński</i>. Można go łatwo i jednoznacznie konwertować na sylabiczne i z sylabicznych, podczas gdy konwersja między nimi a standardową ortografią nie może być w pełni zautomatyzowana. Abstrakcyjna pisownia może być używana jako alternatywna polska ortografia.
+        </p>
+
+        <h3>Ważne Cechy:</h3>
+        <ul>
+            <li>W sylabach nie ma rozróżnienia przypadków</li>
+            <li>Każdy znak oznacza samogłoskę, spółgłoskę, bądź sylabę</li>
+        </ul>
+
+        <h3>Głoski i Spółgłoski</h3>
+        <p>
+            O to są wszystkie samotne głoski i spółgłoski w Sylabicy. Odpowiadają one każdej literze w Polskim alfabcie łacińskim.
+        </p>
+        <img src="./assets/graphics/alfabet.png" alt="Alfabet Sylabicy">
+
+        <h3>Sylaby</h3>
+        <p>
+            Tu znajdują się prawie wszystkie możliwe kombinacje sylab w Polskim Języku; każdy jeden jest reprezentowany przez osobny symbol w Sylabicy.
+        </p>
+        <img src="./assets/graphics/sylaby.png" alt="">
+
+        <h3>Przykład użycia Sylabicy</h3>
+        <div>
+            <section>
+                <h4>Łaciński:</h4>
+                <p>
+                    Pchnąć w tę łódź jeża lub ośm skrzyń fig
+                </p>
+            </section>
+            <section>
+                <h4>Sylabica:</h4>
+                <p class="syl">
+                    Pchnąć w tę łódź jeża lub ośm skrzyń fig
+                </p>
+            </section>
+        </div>
+        <div>
+            <section>
+                <h4>Łaciński:</h4>
+                <p>
+                    Zażółć gęślą jaźń
+                </p>
+            </section>
+            <section>
+                <h4>Sylabica:</h4>
+                <p class="syl">
+                    Zażółć gęślą jaźń
+                </p>
+            </section>
+        </div>
+
+        <h3>Translator</h3>
+        <p>
+            Tutaj możesz wpisać tekst po łacińsku, aby "przetłumaczyć" na Sylabicę
+        </p>
+        <div>
+            <section>
+                <h4>Łaciński:</h4>
+                <textarea name="latArea" id="lat"></textarea>
+            </section>
+            <section>
+                <h4>Sylabica:</h4>
+                <textarea name="sylArea" id="syl" class="syl" readonly></textarea>
+            </section>
+        </div>
+        <div>
+            <button id="trbtn">Przetłumacz</button>
+        </div>
+
+        <h3>Źródła:</h3>
+        <ul>
+            <li><a href="https://drive.google.com/file/d/1dB3lVXoz-eR4xjLHtE9BttJCuevmxZJA/view">PDF dokumentujący Skrypt (link)</a></li>
+            <li><a href="https://www.omniglot.com/conscripts/sylabica.php">Strona Omniglot opisująca Skrypt (link)</a></li>
+            <li><a href="https://sites.google.com/site/qrczakmk/sylabitsa">Strona Google Marcina "Qrczak" Kowalczyka (link)</a></li>
+        </ul>
+
+        <footer>
+            Site created by <a href="https://hazmatt.netlify.app">HazMatt</a>
+        </footer>
+    </main>
+</body>
+</html>
